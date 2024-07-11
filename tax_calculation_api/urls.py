@@ -43,6 +43,9 @@ schema_view = get_schema_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('tax_calculator.urls')),
+    path('api/', include('json_creation_api.urls')),
+    path('api/', include('Digest_code.urls')),
+    path('api/', include('schema_json_compare.urls')),
     path('swagger/', schema_view.with_ui('swagger',
          cache_timeout=0), name='schema-swagger-ui'),
 ]

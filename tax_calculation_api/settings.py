@@ -46,6 +46,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_yasg',
     'tax_calculator',
+    'json_creation_api',
+    'Digest_code',
+    'schema_json_compare',
     'corsheaders',
 
 ]
